@@ -1,0 +1,72 @@
+/* Set the font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Set the form label width to 100% */
+  form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  /* Set the input width to 100% and add some padding */
+  form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Center the submit button */
+  form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Adjust the layout on smaller screens */
+  @media screen and (max-width: 767px) {
+    /* Set the form label width to auto and add some margin */
+    form label {
+      width: auto;
+      margin-bottom: 15px;
+    }
+    
+    /* Set the input width to auto and adjust the padding */
+    form input {
+      width: auto;
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+  }
+
+  body {
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.home-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .home-button:hover {
+    background-color: #0062cc;
+  }
+  
+  
+  
